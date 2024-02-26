@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/layItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_shade"
+       android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/itemCover"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cvr"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center"
+            >
+
+            <TextView
+                android:id="@+id/tvCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAT"
+                android:background="#b19e85"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ইন্টারনেট প্যাকেজে অব্যবহৃত ডাটা ব্যবহারের সীমা উঠল"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"
+                />
+            <TextView
+                android:id="@+id/itemDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মেয়াদ শেষে অব্যবহৃত মোবাইল ইন্টারনেট ডাটা পুনরায় ব্যবহারে নতুন নির্দেশনা জারি করল বাংলাদেশ টেলিযোগাযোগ নিয়ন্ত্রণ কমিশন (বিআরটিসি)। এখন থেকে একজন গ্রাহকরা অব্যবহৃত ইন্টারনেট ডাটার সম্পূর্ণটুকুই ক্যারি ফরওয়ার্ড বা নতুন করে ব্যবহার করতে পারবেন। তবে এজন্য বর্তমান কেনা প্যাকেজই মেয়াদ শেষ হওয়ার আগে কিনতে হবে। তবেই আগের অব্যবহৃত ইন্টারনেট ডাটা পুনরায় ব্যবহার করা যাবে।
+
+২০২৩ সালের ১৫ অক্টোবর বিটিআরসি কর্তৃক জারিকৃত মোবাইল ফোন অপারেটরসমূহের ডাটা এবং ডাটা সংশ্লিষ্ট প্যাকেজ সম্পর্কিত নির্দেশিকায় বলা হয়েছিল, একজন গ্রাহক সর্বোচ্চ ৫০ জিবি পর্যন্ত ডাটা ক্যারি ফরওয়ার্ড করতে পারবেন। গ্রাহক স্বার্থ বিবেচনায় উক্ত নির্দেশনা সংশোধন করে ৫০ জিবি ক্যারি ফরওয়ার্ডের সীমা বাতিল করেছে নিয়ন্ত্রক সংস্থা।
+
+বৃহস্পতিবার বিকালে বিটিআরসি থেকে পাঠানো এক সংবাদ বিজ্ঞপ্তিতে এই তথ্য জানানো হয়েছে।
+
+নতুন নিয়ম অনুযায়ী একজন গ্রাহকের ডাটা প্যাকেজের মেয়াদান্তে অব্যবহৃত ডাটা (বোনাসসহ) ক্যারি ফরওয়ার্ড হবে। যদি গ্রাহক উক্ত প্যাকেজের মেয়াদ শেষ হবার পূর্বেই একই ডাটা প্যাকেজ (ভিন্ন ভিন্ন মেয়াদসহ) ক্রয় করেন।
+
+ইতিমধ্যে সকল মোবাইল অপারেটরসমূহকে এ নির্দেশনা দিয়েছে বিটিআরসি।"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="3dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
